@@ -145,12 +145,12 @@ Node.defaultProps = {
   styles: {
     node: {
       circle: {},
-      name: {},
+      description: {},
       attributes: {},
     },
     leafNode: {
       circle: {},
-      name: {},
+      description: {},
       attributes: {},
     },
   },
@@ -166,7 +166,7 @@ Node.propTypes = {
   onClick: PropTypes.func.isRequired,
   onMouseOver: PropTypes.func.isRequired,
   onMouseOut: PropTypes.func.isRequired,
-  name: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
   attributes: PropTypes.object,
   textLayout: PropTypes.object.isRequired,
   subscriptions: PropTypes.object.isRequired, // eslint-disable-line react/no-unused-prop-types
